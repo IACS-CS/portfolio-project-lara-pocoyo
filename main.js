@@ -10,3 +10,17 @@ hero.addEventListener("click", () => {
   console.log("They clicked the hero!");
   hero.classList.toggle("active");
 });
+
+
+var options = {
+  strings: [
+    '<i>First</i> sentence.',
+    'Wellcome to my Portifolio',
+    'by',
+    'Lara Lascolla 😝'],
+  typeSpeed: 150
+};
+
+var typed = new Typed('h1', options);
+
+

@@ -1,5 +1,7 @@
 /* There's some sample CSS here which you can use or nuke as you like */
 
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Dancing+Script:wght@400..700&family=Moo+Lah+Lah&family=Special+Elite&display=swap');
+
 html {
   /* Make #id links scroll smoothly */
   scroll-behavior: smooth;
@@ -26,7 +28,7 @@ body {
   /* Custom text and stuff */
   background: #0033a0;
   color: white;
-  font-family: Futura;
+  font-family: Special Elite;
   font-weight: bold;
   font-size: 70px;
   text-align: center;
