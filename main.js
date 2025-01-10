@@ -24,4 +24,30 @@ var options = {
 
 var typed = new Typed('h1', options);
 
+let currentSlide = 0;
+
+function showSlide(index) {
+  const slides = document.querySelectorAll('.carousel-item');
+  const totalSlides = slides.length;
+
+  if (index >= totalSlides) {
+    currentSlide = 0;
+  } else if (index < 0) {
+    currentSlide = totalSlides - 1;
+  } else {
+    currentSlide = index;
+  }
+
+  const carousel = document.querySelector('.carousel');
+  carousel.style.transform = `translateX(-${currentSlide * 100}%)`;
+}
+
+function moveSlide(direction) {
+  showSlide(currentSlide + direction);
+}
+
+// Show the first slide initially
+showSlide(currentSlide);
+
+
 
