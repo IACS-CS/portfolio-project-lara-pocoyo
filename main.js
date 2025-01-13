@@ -18,3 +18,11 @@ onload = () => {
         delay += 500;  // Delay de 500ms para cada palavra
     });
 });
+for (const card of document.querySelectorAll(".card")) {
+  card.addEventListener(
+    "click",
+    function () {
+      card.querySelector("a").click()
+    }
+  )
+}
