@@ -1156,7 +1156,7 @@ mask-image: linear-gradient(to top, transparent 40%, #079097 80%) !important;
 #text-container .word:nth-child(3) a {
     position: absolute;
     top: 325px;
-    right: -16px;
+    right: -83px;
     color: #fff;
         white-space: nowrap;
 }
@@ -1216,9 +1216,7 @@ a {
 }
 
 @media only screen and (min-width: 1400px){
-  body{
-    width: 1709px;
-  }
+
 
 .info{
   width: 1702px;
@@ -1307,7 +1305,7 @@ a {
   #text-container .word:nth-child(3) a {
       position: absolute;
       top: 326px;
-      right: -26px;
+      right: -76px;
       color: #fff;
   }
 
@@ -1372,7 +1370,7 @@ a {
 #text-container .word:nth-child(3) a {
     position: absolute;
     top: 326px;
-    right: -16px;
+    right: -78px;
     color: #fff;
     white-space: nowrap;
 }
