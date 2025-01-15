@@ -1158,6 +1158,7 @@ mask-image: linear-gradient(to top, transparent 40%, #079097 80%) !important;
     top: 325px;
     right: -16px;
     color: #fff;
+        white-space: nowrap;
 }
 
 .show {
@@ -1373,6 +1374,7 @@ a {
     top: 326px;
     right: -16px;
     color: #fff;
+    white-space: nowrap;
 }
 
 
